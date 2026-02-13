@@ -1,5 +1,5 @@
-const connectDB = require("../../../src/config/db");
-const runImport = require("../../../src/services/import.service");
+const connectDB = require("../../src/config/db");
+const runImport = require("../../src/services/import.service");
 
 module.exports = async (req, res) => {
   try {

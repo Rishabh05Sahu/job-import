@@ -1,5 +1,5 @@
-const connectDB = require("../../../src/config/db");
-const ImportLog = require("../../../src/models/ImportLog");
+const connectDB = require("../../src/config/db");
+const ImportLog = require("../../src/models/ImportLog");
 
 module.exports = async (req, res) => {
   try {
